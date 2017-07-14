@@ -1,0 +1,108 @@
+.btn-group, .btn-group-vertical{
+  position:relative;
+  display:table;
+  vertical-align:middle;
+  horizontal-align:middle;
+  width:auto;
+  text-align:center;
+  margin:auto;
+  padding:0;
+}
+
+a{
+  text-decoration:none;
+  color:#fff;
+}
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img{
+  display:block;
+  max-width:100%;
+  height:auto;
+}
+
+body{
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:14px;
+  line-height:1.42857143;
+  color:#333;
+  background-color:#000000;
+  background-repeat:no-repeat;
+}
+
+.navbar{
+  position:relative;
+  min-height:50px;
+  margin-bottom:20px;
+  border:1px solid transparent;
+  background:rgba(12,12,12,10);
+}
+
+img{
+  border:0;
+}
+
+img.img-rounded.imgpodcast{
+  margin-left:30px;
+  margin-top:30px;
+  border-radius:15px;
+  margin-bottom:30px;
+  margin-right:20px;
+  display:initial;
+}
+
+div.conteudopod{
+  display:table;
+  background:rgba(255,255,255,0.1);
+  margin-top:10px;
+  margin-bottom:10px;
+  width:auto;
+}
+
+div.imagempod{
+  display:table-cell;
+  float:left;
+}
+
+div.textopod{
+  display:table-cell;
+  float:left;
+}
+
+h1.titulopod{
+  color:#fff;
+  font-size:50px;
+  display:block;
+  font-weight:bold;
+  text-align:center;
+  opacity:0.8;
+}
+
+img.logo{
+  margin-top:-10px;
+}
+
+div.imagemmenu{
+  display:block;
+  margin-left:20%;
+  align-items:center;
+}
+
+h1{
+  color:rgba(255,255,255,0.8);
+  text-align:center;
+}
+
+div.inicio{
+  background-color:rgba(255,255,255,0.1);
+}
+
+p.lead{
+  text-align:center;
+  color:rgba(255,255,255,0.8);
+}
+
+img.img-responsive.podcasts:hover{
+  opacity:0.4;
+  cursor:pointer;
+}
+

@@ -1,0 +1,86 @@
+a{
+  text-decoration:none;
+  color:#fff;
+}
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img{
+  display:block;
+  max-width:100%;
+  height:auto;
+}
+
+body{
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:14px;
+  line-height:1.42857143;
+  color:#333;
+  background-color:#000000;
+}
+
+.navbar{
+  position:relative;
+  min-height:50px;
+  margin-bottom:20px;
+  border:1px solid transparent;
+  background:rgba(12,12,12,10);
+}
+
+img{
+  border:0;
+}
+
+img.img-rounded.imgpodcast{
+  margin-left:30px;
+  margin-top:30px;
+  border-radius:15px;
+  margin-bottom:30px;
+  margin-right:20px;
+}
+
+div.conteudopod{
+  display:table;
+  background:rgba(255,255,255,0.1);
+  margin-top:10px;
+  margin-bottom:10px;
+  width:auto;
+}
+
+div.imagempod{
+  display:table-cell;
+  float:left;
+}
+
+div.textopod{
+  display:table-cell;
+  float:left;
+}
+
+h1.titulopod{
+  color:#ffffff;
+  font-size:30px;
+  display:block;
+  text-align:center;
+  font-weight:bold;
+}
+
+img.logo{
+  margin-top:-10px;
+}
+
+p.descpod{
+  font-size:20px;
+  text-align:center;
+  color:rgba(255,255,255,0.5);
+  width:100%;
+  height:auto;
+}
+
+section.corpopod{
+  height:100%;
+  width:100%;
+}
+
+span.fa.fa-facebook-official{
+  cursor:pointer;
+}
+
